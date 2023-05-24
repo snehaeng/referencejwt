@@ -1,0 +1,10 @@
+GET http://localhost:3001/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWtzaGF5IiwiaWF0IjoxNjg0NDg5MjY2LCJleHAiOjE2ODQ0ODkyODF9.fs2QZg2UnTOBH5vX9DK1CFJ_5iQrtRQr8Fuy_Cgfdos
+###
+
+POST http://localhost:800/login
+Content-Type: application/json
+
+{
+    "username": "akshay"
+}
